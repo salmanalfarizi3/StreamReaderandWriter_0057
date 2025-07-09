@@ -52,3 +52,5 @@ int main()
 
  //jika tidak ditemukan maka akan menampilkan 
  else cout << "Unable to open file";
+ return 0;
+}
