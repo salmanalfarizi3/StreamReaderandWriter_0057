@@ -38,3 +38,13 @@ int main()
       << ">= Membuka dan membaca file" << endl;
  if (infile.is_open())
  {
+     // melakukan perulangan setiap baris
+     while (getline(infile, baris))
+     {
+         // dan tampilkan disini
+         cout << baris << endl;
+     }
+
+      // tutup file tersebut  setelah selesai
+     infile.close();
+ 
